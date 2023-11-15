@@ -41,13 +41,15 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- My plugins here
+
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use 'ellisonleao/gruvbox.nvim'
-  use 'nvim-tree/nvim-tree.lua'
-  use 'nvim-tree/nvim-web-devicons'
-  use 'nvim-lualine/lualine.nvim'
+  use 'ellisonleao/gruvbox.nvim' -- font plugin 
+  use 'nvim-tree/nvim-tree.lua' -- Navigation plugin
+  use 'nvim-tree/nvim-web-devicons' -- icons plugin (not working yet)
+  use 'nvim-lualine/lualine.nvim' -- navigation thing at the bottom of the screen
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
