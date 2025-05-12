@@ -47,7 +47,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use 'ellisonleao/gruvbox.nvim' -- font plugin 
   use 'nvim-tree/nvim-tree.lua' -- Navigation plugin
-  use 'nvim-tree/nvim-web-devicons' -- icons plugin (not working yet)
+  use 'nvim-tree/nvim-web-devicons' -- icons plugin (requires a nerd font for the terminal)
   use 'nvim-lualine/lualine.nvim' -- navigation thing at the bottom of the screen
 
   -- Completion related plugins
